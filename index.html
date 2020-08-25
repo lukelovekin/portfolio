@@ -10,6 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 <body>
@@ -54,7 +57,7 @@
         <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
                 <p><b> Hey, I'm Luke! </b></p><br>
-                <img src="./images/face.JPG" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                <img src="./src/images/face.JPG" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
                     alt="Photo of Me" width="500" height="333" style="border-radius: 10px;">
             </div>
 
@@ -99,6 +102,32 @@
 
     <div class="w3-row w3-center w3-dark-grey w3-padding-16">
         <div class="w3-quarter w3-section">
+            <span class="w3-xlarge"><i class="fab fa-js-square fa-3x"></i></span><br>
+            JavaScript
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Icon</span><br>
+            Tech Stack Here
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Icon</span><br>
+            Tech Stack Here
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">Icon</span><br>
+            Tech Stack Here
+        </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
             <span class="w3-xlarge">IcoIcon</span><br>
             Tech Stack Here
         </div>
@@ -114,14 +143,6 @@
             <span class="w3-xlarge">Icon</span><br>
             Tech Stack Here
         </div>
-        
-    </div>
-
-    <!-- Second Parallax Image with Portfolio Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-        </div>
     </div>
 
     <!-- Container (Portfolio Section) -->
@@ -133,47 +154,46 @@
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-row-padding w3-center">
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="The mist over the mountains">
             </div>
 
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="Coffee beans">
             </div>
 
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="Bear closeup">
             </div>
 
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="Quiet ocean">
             </div>
         </div>
 
         <div class="w3-row-padding w3-center w3-section">
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="The mist">
             </div>
 
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="My beloved typewriter">
             </div>
 
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="Empty ghost train">
             </div>
 
             <div class="w3-col m3">
-                <img src="./images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                <img src="./src/images/mario.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
                     alt="Sailing">
             </div>
-            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
         </div>
     </div>
 
@@ -194,56 +214,55 @@
         </div>
     </div>
 
-    <!-- Container (Contact Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="contact">
-        <h3 class="w3-center">WHERE I WORK</h3>
-        <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-        <div class="w3-row w3-padding-32 w3-section">
-            <div class="w3-col m4 w3-container">
-                <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
-            </div>
-            <div class="w3-col m8 w3-panel">
-                <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00
-                    151515<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-                    mail@mail.com<br>
-                </div>
-                <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-                <form action="/action_page.php" target="_blank">
-                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                        <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                        </div>
-                        <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                        </div>
-                    </div>
-                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                    <button class="w3-button w3-black w3-right w3-section" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </form>
-            </div>
+    <footer>
+    
+        <div id="contact" class='col-12 social padding text-center' style="margin: 0; padding-bottom: 0" >
+            <a href="https://www.linkedin.com/ilukelovekin">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fab fa-linkedin" style="color:#DDDDDD;"></i>
+            </a>
+            <a href="https://twitter.com/LovekinLuke">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fab fa-twitter-square" style="color:#DDDDDD;"></i>
+            </a>
+            <a href="https://github.com/lukelovekin">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fab fa-github" style="color:#DDDDDD;"></i>
+            </a>
+            <a href="https://github.clukelovekin">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="far fa-envelope" style="color:#DDDDDD;"></i>
+            </a>
+            <a href="https://github.com/lukelovekin">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fas fa-phone-square-alt"style="color:#DDDDDD;"></i>
+            </a>
         </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <div class="w3-xlarge w3-section">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+    
+        <div class='col-12 text-center' style="padding-bottom: 15px;">
+            <hr class='light2' />
+            <h5>&copy; Luke Lovekin.</h5>
+             Mention LukePortfolio for 50% off your first week of work 
+             
         </div>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
-                class="w3-hover-text-green">w3.css</a></p>
     </footer>
+
+
 
     <script>
         // Modal Image Gallery
@@ -285,6 +304,17 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- bootstrap and Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
