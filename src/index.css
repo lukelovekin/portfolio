@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
 
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
@@ -37,8 +43,12 @@ html {
     cursor: pointer;
 }
 
+/* cards */
+
+
+
+/* social links in the footer */
 .social a {
-    
   position: relative;
   margin: 25px;
   padding: 1rem;
@@ -140,6 +150,14 @@ hr {
     width: 100%;
     margin-bottom: 0rem;
   }
+
+.card-i {
+  color:#4B4B4C;
+}
+  
+.card-i:hover{
+  color: rgb(160, 160, 160);
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
