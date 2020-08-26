@@ -159,6 +159,18 @@ hr {
   color: rgb(160, 160, 160);
 }
 
+ul.col-sm-8 {
+  padding:0;
+}
+
+div.col-sm-5 {
+  padding: 0;
+}
+
+ul.col-sm-7 {
+  padding: 0;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
     .bgimg-1,
